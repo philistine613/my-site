@@ -1,0 +1,61 @@
+.main{
+    margin-bottom: auto;
+    height:700px;
+}
+
+#popInfo{
+    background-color: darkgreen;
+    height: 300px;
+}
+
+#popFrame{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    padding-top: 10%;
+}
+
+#btns{
+    height: 700px;
+    justify-content: center;
+    background-color: brown;
+}
+
+.pic{
+    position: absolute;
+    display: block;
+    pointer-events: none;
+    opacity: 0%;
+    background-color: aquamarine;
+}
+
+svg {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+    z-index: 2; /*расположить svg поверх основной картинки*/
+}
+
+.part{
+    opacity: 100%;
+}
+
+.part:hover{
+    transition: opacity .2s ease;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+#Info{
+    display: none;
+    z-index: 3;
+    position: relative;
+    height: fit-content;
+    background-color: cornflowerblue;
+    padding: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My syte</title>
+    <!--адаптивность-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous"/>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Навигация/Хидер-->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container" > 
+            <a class="navbar-brand" href="#">My site</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-home fa-fw"></i> Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Интерактив</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html">О нас</a>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!--Основа-->
+    <div class="main">
+        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../media/1.jpg" class="d-block w-100" alt="f_slide">
+                <div class="carousel-caption d-md-block">
+                  <h2>Добро пожаловать</h2>
+                  <p>- это интерактивный сайт по демонстрации культурных особенностей коренных народов Якутии.
+                    Информация и контент с сайта может использоваться в обучающих и ознакомительных целях в школах и дошкольных учреждениях.</p>
+                  <p><a class="btn btn-primary px-5 mx-auto mt-3" href="index.html" role="button">Попробовать &raquo;</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../media/1.jpg" class="d-block w-100" alt="s_slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>- это интерактивный сайт по демонстрации культурных особенностей коренных народов Якутии.
+                    Информация и контент с сайта может использоваться в обучающих и ознакомительных целях в школах и дошкольных учреждениях.</p>
+                  <p><a class="btn btn-primary px-5 mx-auto mt-3" href="index.html" role="button">Попробовать &raquo;</a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../media/2.jpg" class="d-block w-100" alt="t_slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>- это интерактивный сайт по демонстрации культурных особенностей коренных народов Якутии.
+                    Информация и контент с сайта может использоваться в обучающих и ознакомительных целях в школах и дошкольных учреждениях.</p>
+                  <p><a class="btn btn-primary px-5 mx-auto mt-3" href="index.html" role="button">Попробовать &raquo;</a></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
+          <div class="footer">
+            <div class="container">
+                <div class="row centered">
+                    <div class="col"></div>
+                    <div class="col">
+                        <a href="#"><i class="fa-brands fa-vk"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <p>&copy; Все права защищены 2021</p>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>       
+        </div>
+    <!--Футер-->
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!--иконки-->
+    <script src="https://use.fontawesome.com/ba9c0358d2.js"></script>
+</body>
+</html>
