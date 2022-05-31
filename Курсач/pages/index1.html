@@ -10,7 +10,7 @@
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
     crossorigin="anonymous"/>
     <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/style_extra.css" rel="stylesheet">
     <link href="../css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -18,22 +18,21 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container" > 
-            <a class="navbar-brand" href="#">My site</a>
+            <a class="navbar-brand" href="index.html">My site</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-home fa-fw"></i> Главная</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Интерактив</a>
+                        <a class="nav-link active" aria-current="page" href="#">Интерактив</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index2.html">О нас</a>
+                        <a class="nav-link" aria-current="page" href="index2.html">О нас</a>
                     </li>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -41,49 +40,61 @@
     </header>
     <!--Основа-->
     <div class="main">
-        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-9" id="popFrame">
+                    <div class="col-md-9" id="Info">
+                    </div>
+                    <div class="pic" id="Чукчи">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         viewBox = "0 0 691.97968 538.47717">
+                            <g>
+                                <title>барабан</title>
+                                <path class="part" d="M 72.06386,153.1357 C 44.703817,146.92166 14.209312,134.71202 16.014191,86.076277 22.967778,54.461269 41.581519,25.756367 83.073616,26.02306 c 32.743814,0.870158 66.631954,23.551188 58.051444,69.0612 -12.69815,46.77458 -32.33215,59.32289 -69.0612,58.05144 z"/>
+                                <desc>барабан чукчей, сделан из обтянутой и высушенной кожи северного оленя</desc>
+                            </g>
+                            <g>
+                                <title>обувь</title>
+                                <path class="part" d="m 140.12418,423.37517 60.05321,2.00177 c -0.46284,25.94785 -0.35776,45.3524 10.00887,66.05855 -34.21585,16.14827 -60.10179,12.69861 -81.07184,5.00443 -1.33452,-10.67613 2.66903,-18.68322 20.01773,-24.02129 -8.64262,-6.762 -8.80869,-18.3638 -9.00797,-49.04346 z"/>
+                                <path class="part" d="m 232.20577,423.37517 h 62.05499 c -0.18521,19.90674 -3.48822,35.13678 -9.00798,47.04169 16.32888,9.00798 17.59187,21.01863 21.01862,30.02661 -27.60451,5.16469 -63.67227,5.23634 -81.07184,-9.00797 5.04145,-21.45114 9.80613,-43.99541 7.00621,-68.06033 z"/>
+                                <desc>Типичная чукотская обувь — короткие мягкие сапоги нескольких видов: из шкур нерпы шерстью наружу, а также из оленьего меха с чулками и травяными стельками, предохраняющими ноги от обморожения (зимние).</desc>
+                            </g>
+                        </svg>
+                        <img src="../media/Чукчи.png" height="538.47717px" width="691.97968px">
+                    </div>
+                    <div class="pic" id="Якуты">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox = "0 0 536.04059 562.84265">
+                            <g>
+                                <title>мужской головной убор</title>
+                                <path class="part" d="m 51.258884,194.98478 c 0,0 32.162438,-40.20305 88.446706,-31.15737 56.28426,9.04569 83.42132,33.16752 83.42132,33.16752 0.95616,-2.03502 53.95228,-60.55187 -9.04569,-97.492392 -17.07653,-10.01327 -0.50456,-27.348863 -58.29442,-48.243654 l -2.01015,-21.106599 c 0.55882,0.558821 -9.87357,-35.917542 -56.284263,-6.030457 -23.93249,15.411801 -14.498389,45.228428 -15.076142,45.228428 -9.8439,4.141722 -18.221773,10.726825 -20.101523,28.142132 0,0 -71.3604075,37.187822 -11.055838,97.492392 z"/>
+                                <desc>шапка из меха</desc>
+                            </g>
+                            <g>
+                                <title>украшение</title>
+                                <path class="part" d="m 375.55639,295.39122 -3.48544,92.36422 c -2.3986,0.79954 26.06242,-10.45114 37.4685,0.87136 6.8164,6.76646 -11.26077,-94.9783 -3.48544,-94.9783 l -15.68449,-13.94177 z"/>
+                                <desc> илин-кэбиьэр - женское украшение из металла, которое вешается на шею</desc>
+                            </g>
+                        </svg>
+                        <img src="../media/Якуты.png" height="536.04059px" width="562.84265px">
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex flex-column bd-highlight mb-3 text-center" id="btns">
+                    <div class="p-2 bd-highlight">
+                        <button type="button" class="btn btn-primary">Чукчи</button>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <button type="button" class="btn btn-primary">Якуты</button>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../media/1.jpg" class="d-block w-100" alt="f_slide">
-                <div class="carousel-caption d-md-block">
-                  <h2>Добро пожаловать</h2>
-                  <p>- это интерактивный сайт по демонстрации культурных особенностей коренных народов Якутии.
-                    Информация и контент с сайта может использоваться в обучающих и ознакомительных целях в школах и дошкольных учреждениях.</p>
-                  <p><a class="btn btn-primary px-5 mx-auto mt-3" href="index.html" role="button">Попробовать &raquo;</a></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../media/1.jpg" class="d-block w-100" alt="s_slide">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>- это интерактивный сайт по демонстрации культурных особенностей коренных народов Якутии.
-                    Информация и контент с сайта может использоваться в обучающих и ознакомительных целях в школах и дошкольных учреждениях.</p>
-                  <p><a class="btn btn-primary px-5 mx-auto mt-3" href="index.html" role="button">Попробовать &raquo;</a></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../media/2.jpg" class="d-block w-100" alt="t_slide">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>- это интерактивный сайт по демонстрации культурных особенностей коренных народов Якутии.
-                    Информация и контент с сайта может использоваться в обучающих и ознакомительных целях в школах и дошкольных учреждениях.</p>
-                  <p><a class="btn btn-primary px-5 mx-auto mt-3" href="index.html" role="button">Попробовать &raquo;</a></p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div> 
-          <div class="footer">
+        </div>
+        <div class = "container" id="popInfo">
+            <h1>Народ</h1>
+            <p></p>
+        </div>
+	<!--Футер-->        
+		<div class="footer">
             <div class="container">
                 <div class="row centered">
                     <div class="col"></div>
@@ -96,13 +107,13 @@
                     <div class="col"></div>
                 </div>
             </div>
-        </div>       
         </div>
-    <!--Футер-->
+    </div>
     <!--JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
     <!--иконки-->
     <script src="https://use.fontawesome.com/ba9c0358d2.js"></script>
 </body>
