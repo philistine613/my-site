@@ -4,6 +4,7 @@
 }
 
 #popInfo{
+    display: none;
     background-color: rgba(0, 100, 0, 0.5);
     height: 300px;
 }

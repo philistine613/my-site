@@ -19,6 +19,7 @@ cont.addEventListener('click', function (event) {
         pic.style.opacity = "0";
         pic.style.pointerEvents = "none";
         infoPanel.style.display = "none";
+        popInfo.style.display = "block";
         title_Info.innerHTML = "";
         text_Info.innerHTML = "";
         if(pic.id == wButton.innerHTML){
@@ -37,8 +38,7 @@ frame.addEventListener('click', function (event) {
         obj.classList.add("active")
         let test_title = obj.querySelector("title").innerHTML,
         test_text = obj.querySelector("desc").textContent;
-//        console.log(test_text);
-//        console.log(test_title);
+
 
         title_Info.innerHTML = "";
         text_Info.innerHTML = "";
