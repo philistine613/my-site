@@ -18,7 +18,7 @@
 #btns{
     height: 700px;
     justify-content: center;
-    background-color: brown;
+    /*background-color: brown;*/
 }
 
 .pic{
@@ -26,7 +26,7 @@
     display: block;
     pointer-events: none;
     opacity: 0%;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
 }
 
 svg {
@@ -41,7 +41,7 @@ svg {
 }
 
 .part{
-    opacity: 100%;
+    opacity: 30%;
 }
 
 .part:hover{
