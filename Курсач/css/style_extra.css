@@ -41,12 +41,12 @@ svg {
 }
 
 .part{
-    opacity: 30%;
+    opacity: 0%;
 }
 
 .part:hover{
     transition: opacity .2s ease;
-    opacity: 0.2;
+    opacity: 0.3;
     cursor: pointer;
 }
 
