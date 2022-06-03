@@ -42,11 +42,14 @@ svg {
 
 .part{
     opacity: 0%;
+	outline-color: yellow;
+    outline-style: solid;
+    outline-width: 0.5px;
 }
 
 .part:hover{
     transition: opacity .2s ease;
-    opacity: 0.3;
+    opacity: 0.5;
     cursor: pointer;
 }
 
