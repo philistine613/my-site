@@ -4,7 +4,7 @@
 }
 
 #popInfo{
-    background-color: darkgreen;
+    background-color: rgba(0, 100, 0, 0.5);
     height: 300px;
 }
 
@@ -13,6 +13,7 @@
     justify-content: center;
     height: 700px;
     padding-top: 10%;
+    background-color: rgba(79, 36, 36, 0.5);
 }
 
 #btns{
@@ -42,10 +43,6 @@ svg {
 
 .part{
     opacity: 0%;
-	border: 0.5px solid yellow;
-	/*outline-color: yellow;
-    outline-style: solid;
-    outline-width: 0.5px;*/
 }
 
 .part:hover{
