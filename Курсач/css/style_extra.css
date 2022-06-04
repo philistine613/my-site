@@ -56,6 +56,7 @@ svg {
     z-index: 3;
     position: relative;
     height: fit-content;
+    max-width: 100%;
     background-color: cornflowerblue;
     padding: 20px;
     box-sizing: border-box;
