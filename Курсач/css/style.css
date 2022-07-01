@@ -28,10 +28,10 @@ p {
     color: white;
 }
 
-/*.responsive {
+.responsive {
     max-width: 100%;
     height: auto;
-}*/
+}
 
 hr {  
     display: block;
