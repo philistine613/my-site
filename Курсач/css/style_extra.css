@@ -5,12 +5,12 @@
 
 .commonDiv{
     display:inline-block;
-    /*background-color: bisque;*/
+    background-color: bisque;
 }
 
 #popInfo{
     display: none;
-    background-color: bisque;
+    background-color: rgba(0, 100, 0, 0.5);
     height: 300px;
 }
 
@@ -20,13 +20,13 @@
     justify-content: center;
     height: 700px;
     padding-top: 10%;
-    background-color: bisque;
+    background-color: rgba(79, 36, 36, 0.7);
 }
 
 #btns{
     height: 700px;
     justify-content: center;
-    background-color: bisque;
+    background-color: rgba(79, 36, 36, 0.7);
 }
 
 .pic{
