@@ -5,27 +5,28 @@
 
 .commonDiv{
     display:inline-block;
-    background-color: bisque;
+    /*background-color: bisque;*/
 }
 
 #popInfo{
     display: none;
-    /*background-color: rgba(0, 100, 0, 0.5);*/
+    background-color: bisque;
     height: 300px;
 }
 
 #popFrame{
+    position: relative;
     display: flex;
     justify-content: center;
     height: 700px;
     padding-top: 10%;
-    /*background-color: rgba(79, 36, 36, 0.7);*/
+    background-color: bisque;
 }
 
 #btns{
     height: 700px;
     justify-content: center;
-    /*background-color: rgba(79, 36, 36, 0.7);*/
+    background-color: bisque;
 }
 
 .pic{
