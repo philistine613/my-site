@@ -4,6 +4,7 @@
 }
 
 .commonDiv{
+    display:inline-block;
     background-color: bisque;
 }
 
