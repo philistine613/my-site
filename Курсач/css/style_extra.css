@@ -16,8 +16,9 @@
 }
 
 #popFrame{
-    display: flex;
-    justify-content: center;
+    position: relative;
+    /*display: flex;
+    justify-content: center;*/
     height: 700px;
     padding-top: 10%;
     background-color: rgba(136, 49, 49, 0.7);
@@ -31,6 +32,8 @@
 
 .pic{
     position: absolute;
+    left:50%;
+    transform: translate(-50%, 0);
     display: block;
     pointer-events: none;
     opacity: 0%;
