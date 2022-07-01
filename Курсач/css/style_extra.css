@@ -11,7 +11,7 @@
 
 #popInfo{
     display: none;
-    background-color: bisque;
+    background-color: rgba(136, 49, 49, 0.7);
     height: 300px;
 }
 
@@ -20,13 +20,13 @@
     justify-content: center;
     height: 700px;
     padding-top: 10%;
-    background-color: bisque;
+    background-color: rgba(136, 49, 49, 0.7);
 }
 
 #btns{
     height: 700px;
     justify-content: center;
-    background-color: bisque;
+    background-color: rgba(136, 49, 49, 0.7);
 }
 
 .pic{
