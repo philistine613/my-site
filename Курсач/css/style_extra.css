@@ -15,7 +15,6 @@
 }
 
 #popFrame{
-    position: relative;
     display: flex;
     justify-content: center;
     height: 700px;
