@@ -12,7 +12,7 @@
 #popInfo{
     display: none;
     background-color: rgba(136, 49, 49, 0.7);
-    height: 300px;
+    height: fit-content;
 }
 
 #popFrame{
