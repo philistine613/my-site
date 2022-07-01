@@ -5,7 +5,8 @@ const popInfo = document.querySelector('#popInfo')
 
 const picSvg = document.querySelectorAll('svg')
 let infoPanel = document.querySelector('#Info');
-let objs = document.querySelectorAll('g')
+let objs = document.querySelectorAll('g');
+
 let title_Info = document.createElement('h2');
 let text_Info = document.createElement('p');
 let cls_btn = document.createElement('button')
