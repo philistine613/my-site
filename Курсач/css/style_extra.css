@@ -11,8 +11,12 @@
 
 #popInfo{
     display: none;
-    background-color: #9D7242;
+    background-color: #F9F0DA;
     height: fit-content;
+}
+
+#popInfo h1{
+    color:#9D7242
 }
 
 #popFrame{
@@ -20,13 +24,13 @@
     justify-content: center;
     height: 600px;
     padding-top: 10%;
-    background-color: #B5AFA0;
+    background-color: #F9F0DA;
 }
 
 #btns{
     height: 600px;
     justify-content: center;
-    background-color: #B5AFA0;
+    background-color: #F9F0DA;
 }
 
 .pic{
