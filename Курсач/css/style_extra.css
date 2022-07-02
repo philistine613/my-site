@@ -16,7 +16,11 @@
 }
 
 #popInfo h1{
-    color:#9D7242
+    color:#9D7242;
+}
+
+#popInfo p{
+    color:#9D7242;
 }
 
 #popFrame{
