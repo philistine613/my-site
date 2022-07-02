@@ -2,6 +2,8 @@ const cont = document.querySelector('#btns')
 const pics = document.querySelectorAll('.pic');
 const frame = document.querySelector('#popFrame')
 const popInfo = document.querySelector('#popInfo')
+const popInfoTitle = document.querySelector('#popInfoTitle')
+const popInfoText = document.querySelector('#popInfoText')
 
 const picSvg = document.querySelectorAll('svg')
 let infoPanel = document.querySelector('#Info');
@@ -16,6 +18,9 @@ cls_btn.appendChild(btn_text)
 
 cont.addEventListener('click', function (event) {
     let wButton = event.target.closest('button')
+    popInfoTitle.innerHTML = "";
+    popInfoText.innerHTML = "";
+    popInfoTitle.insertAdjacentText('afterbegin', wButton.innerHTML)
     for (let pic of pics){
         pic.style.opacity = "0";
         pic.style.pointerEvents = "none";
@@ -26,6 +31,7 @@ cont.addEventListener('click', function (event) {
         if(pic.id == wButton.innerHTML){
             pic.style.opacity = "100%";
             pic.style.pointerEvents = "auto";
+            popInfoText.insertAdjacentText('afterbegin', pic.querySelector("desc").textContent)
         }
     }
 });
