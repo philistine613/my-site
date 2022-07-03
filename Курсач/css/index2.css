@@ -1,5 +1,5 @@
 .content{
-    padding-top: 72px;
+    padding-top: 96px;
     height: fit-content;
     background-color: #F9F0DA;
 }
@@ -7,4 +7,5 @@
 .content p{
     padding-left: 30px;
     padding-right: 30px;
+    color:#9D7242;;
 }
