@@ -69,7 +69,9 @@ hr {
     height: 1px;
     border: 0px;
     border-top: 2px solid #9D7242;
-    margin:48px 32px;
+    margin-bottom:48px;
+    margin-left: 32px;
+    margin-bottom: 32px;
     padding:0;
 }
 
