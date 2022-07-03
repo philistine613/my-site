@@ -97,7 +97,7 @@ svg {
 }
 
 #Info button{
-    margin-top: 20px;
+    margin-top: 10px;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
