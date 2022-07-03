@@ -92,5 +92,6 @@ svg {
 }
 
 #Info p{
+    padding: 0 20px;
     color: #212529;
 }
