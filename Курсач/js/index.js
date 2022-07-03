@@ -13,7 +13,7 @@ let title_Info = document.createElement('h2');
 let text_Info = document.createElement('p');
 let cls_btn = document.createElement('button')
 let btn_text = document.createTextNode('закрыть')
-cls_btn.className = "btn btn-primary";
+cls_btn.className = "btn";
 cls_btn.appendChild(btn_text)
 
 cont.addEventListener('click', function (event) {
