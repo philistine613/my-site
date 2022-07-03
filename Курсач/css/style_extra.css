@@ -10,6 +10,7 @@
 }
 
 #popInfo{
+    margin-top:100px;
     display: none;
     background-color: #F9F0DA;
     height: fit-content;
