@@ -10,7 +10,7 @@
 }
 
 #popInfo{
-    margin-top:72px;
+    padding-top:72px;
     display: none;
     background-color: #F9F0DA;
     height: fit-content;
@@ -73,7 +73,7 @@ svg {
     position: relative;
     height: fit-content;
     max-width: 100%;
-    background-color: cornflowerblue;
+    background-color: #8F92A6;
     padding: 20px;
     box-sizing: border-box;
 }
