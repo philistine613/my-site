@@ -81,8 +81,12 @@ svg {
     z-index: 3;
     position: relative;
     height: fit-content;
-    max-width: 100%;
-    background-color: #8F92A6;
+    max-width: 400px;
+    background-color: #CEA474;
     padding: 20px;
     box-sizing: border-box;
+}
+
+#Info button{
+    margin: 0 auto;
 }
