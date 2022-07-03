@@ -21,6 +21,7 @@
 
 #popInfo p{
     color:#9D7242;
+    white-space: pre-line;
 }
 
 #popFrame{
