@@ -82,7 +82,15 @@ svg {
     position: relative;
     height: fit-content;
     max-width: 400px;
-    background-color: #CEA474;
+    background-color: #CEAF8C;
     padding: 20px;
     box-sizing: border-box;
+}
+
+#Info h1{
+    color: #212529;
+}
+
+#Info p{
+    color: #212529;
 }
