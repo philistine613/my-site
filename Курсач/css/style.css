@@ -24,6 +24,8 @@ p {
     font-family: "Raleway";
     line-height: 28px;
     color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .btn {
