@@ -41,18 +41,18 @@ p {
 }
 .btn:hover {
     color: #212529;
-    background-color: #689BB1;
+    background-color: #CE8674;
     border: none;
 }
 .btn:focus + .btn-primary, .btn-primary:focus {
     color: #212529;
-    background-color: #689BB1;
+    background-color: #CE8674;
     border: none;
     box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
 .btn:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #2C5263;
+    background-color: #9D5342;
     border: none;
 }
 .btn:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
