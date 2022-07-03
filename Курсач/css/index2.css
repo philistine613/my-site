@@ -6,12 +6,15 @@
 
 .content p{
     white-space: pre-line;
-    padding-left: 30px;
-    padding-right: 30px;
     color:#9D7242;
 }
 
 .content h1{
     margin-bottom: 16px;
     color: #9D7242;
+}
+
+.descText{
+    padding-left: 30px;
+    padding-right: 30px;
 }
