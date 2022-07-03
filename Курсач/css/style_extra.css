@@ -95,3 +95,7 @@ svg {
     padding: 0 20px;
     color: #212529;
 }
+
+#Info button{
+    margin: 0 auto;
+}
