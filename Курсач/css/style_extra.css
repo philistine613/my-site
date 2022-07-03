@@ -30,13 +30,13 @@
     display: flex;
     justify-content: center;
     min-height: 500px;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    /*padding-top: 10%;
+    padding-bottom: 10%;*/
     background-color: #F9F0DA;
 }
 
 #btns{
-    height: 50px;
+    height: 70px;
     justify-content: center;
     background-color: #F9F0DA;
 }
@@ -46,6 +46,7 @@
     display: block;
     pointer-events: none;
     opacity: 0%;
+    padding: 10% 0;
 }
 
 svg {
