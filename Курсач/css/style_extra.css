@@ -12,6 +12,7 @@
 #popInfo{
     display: none;
     background-color: #F9F0DA;
+    max-width: 400px;
     height: fit-content;
 }
 
