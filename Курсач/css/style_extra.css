@@ -80,7 +80,7 @@ svg {
     display: none;
     z-index: 3;
     position: relative;
-    height: fit-content;
+    max-height: 400px;
     max-width: 600px;
     background-color: #CEAF8C;
     padding: 20px;
