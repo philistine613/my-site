@@ -1,8 +1,10 @@
 .carousel-caption h2{
     margin-bottom: 20px;
+    color: #212529;
 }
 
 .carousel-caption p{
     white-space: pre-line;
     padding: 0 100px;
+    color: #212529;
 }
