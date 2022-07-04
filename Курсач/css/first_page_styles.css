@@ -3,5 +3,6 @@
 }
 
 .carousel-caption p{
+    white-space: pre-line;
     padding: 0 100px;
 }
