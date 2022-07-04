@@ -80,7 +80,7 @@ svg {
     display: none;
     z-index: 3;
     position: relative;
-    max-height: fit-content;
+    height: fit-content;
     max-width: 600px;
     background-color: #CEAF8C;
     padding: 20px;
@@ -93,7 +93,7 @@ svg {
 
 #Info p{
     overflow: auto;
-    max-height: 400px;
+    height: 200px;
     padding: 0 20px;
     color: #212529;
 }
